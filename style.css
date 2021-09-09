@@ -77,16 +77,16 @@ p {
     margin: 0 10px 0 10px;
 }
 
-ul {
+section {
     flex: 1;
-    margin-right: 15px;
 }
 
-ol {
-    flex: 1;
-    list-style: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+h2 {
+    margin-left: 25px;
+}
+
+ul {
+    margin-left: 5px;
 }
 
 footer {
@@ -107,6 +107,10 @@ footer {
     font-size: 12px;
     margin: 0 auto;
     text-align: center;
+}
+
+h3 {
+    font-size: 18px;
 }
 
 /* MEDIA SCREEN */
@@ -160,5 +164,6 @@ footer {
         display: initial;
     }
 
+    
 
 }
